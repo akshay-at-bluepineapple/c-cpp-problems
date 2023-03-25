@@ -57,6 +57,7 @@ int main()
         if((val-1) > modeValue){
             modeValue = val-1;
             mode[0]=a[i];
+            k=0;
         }
 
         if(modeValue == (val-1)){
